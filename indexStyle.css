@@ -1,19 +1,42 @@
+* {box-sizing:border-box}
+html{
+    background-size:contain;
+    background-color: rgb(65, 64, 64);
+}
 div{  
     margin: 10px;
     border: 1px solid black;
-    font-size: 20px;
-    height: 80px;
+    font-size: 50px;
+    height: 450px;
     text-align: center;
 }
 #header{ 
     background-color: #ccc;
 }
-#sidebar{
-    background-color: #ddd;
+
+.bar{
+    border: none;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
 }
+.MiaSlide{
+    height: 480px;
+    display: none;
+    border: none;
+}
+
 #main{
     background-color: #eee;
     height: 200px;
+}
+#main:hover{
+    background-size: contain;
+    background-image: url("images/mia_shadow.JPG");
+    color: #ffd900;
 }
 #footer{ 
     background-color: #ccc;
