@@ -1,21 +1,33 @@
 * {box-sizing:border-box}
 html{
     background-size:contain;
-    background-color: rgb(65, 64, 64);
+    background-color: rgb(223, 211, 211);
 }
 div{  
     margin: 10px;
     border: 1px solid black;
     font-size: 50px;
-    height: 450px;
+    height: 500px;
     text-align: center;
 }
 #header{ 
-    background-color: #ccc;
+    background-size: cover;
+    background-image: url(images/header.JPG);
+    height: 500px;
+    color: gold;
+}
+
+.menu{
+    display: flex;
+    height: 100px;
+}
+button{
+    width: 25%;
+    font-size: xx-large;
 }
 
 .bar{
-    width: 30%;
+    width: 100%;
     max-height: 500px;
     margin: 5px;
     display: inline-block;
@@ -24,21 +36,26 @@ div{
 }
 .MiaSlide{
     box-sizing: border-box; 
-    height: 75%;
+    height: 50%;
     display: none;
     border: none;
+    overflow: hidden;
+    float:left;
 }
 
 
 #main{
-    background-color: #eee;
-    height: 200px;
+    background-size: contain;
+    background-image: url(images/IMG_4286.JPG);
+    height: 350px;
+    width: 260px;
 }
 #main:hover{
     background-size: contain;
-    background-image: url("images/mia_shadow.JPG");
-    color: #ffd900;
+    background-image: url(images/IMG_42852.JPG);
 }
 #footer{ 
-    background-color: #ccc;
+    background-color: rgb(148, 144, 144);
+    display: flex;
+    height: 400px;
 }
